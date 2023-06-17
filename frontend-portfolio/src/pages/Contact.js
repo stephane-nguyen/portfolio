@@ -1,5 +1,18 @@
 import React from "react";
 
+import SocialIcons from "../components/SocialIcons";
+
+import { Typography } from "@mui/material";
+
 export default function Contact() {
-  return <h1>get in touch</h1>;
+  return (
+    <>
+      <div id="contact">
+        <Typography variant="h6" align="center" gutterBottom>
+          Get in touch
+        </Typography>
+        <SocialIcons />
+      </div>
+    </>
+  );
 }

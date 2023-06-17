@@ -1,13 +1,16 @@
+.bg-color {
+  background-color: steelblue;
+}
+
 .social-icons-container {
     display: flex;
-  }
-  
-  .social-icon {
-    margin-right: 10px;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .social-icon:hover {
-    color: blue;
-  }
-  
+}
+
+.social-icon {
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: blue;
+}

@@ -1,20 +1,19 @@
 import React from "react";
+
 import Navbar from "./components/Navbar";
-import SocialIcons from "./components/SocialIcons";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import WorkExperience from "./pages/WorkExperience";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="bg-color">
       <Navbar />
       <Header />
       <About />
-      <Contact />
-      <SocialIcons />
+      <WorkExperience />
       <Footer />
     </div>
   );
