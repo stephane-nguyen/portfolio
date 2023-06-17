@@ -1,0 +1,13 @@
+.social-icons-container {
+    display: flex;
+  }
+  
+  .social-icon {
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    color: blue;
+  }
+  
