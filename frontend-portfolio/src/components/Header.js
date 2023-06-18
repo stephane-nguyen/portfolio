@@ -1,17 +1,24 @@
 import React from "react";
-import { Typography, Grid } from "@mui/material";
+import { Typography, Box } from "@mui/material";
+
+import headerBackgroundImage from "../images/blue_sky_img.jpg";
 
 export default function Header() {
   return (
-    <Grid container justifyContent="center" alignItems="center">
-      <Grid item>
-        <Typography variant="h2" align="center">
+    <>
+      <Box
+        sx={{
+          backgroundImage: `url(${headerBackgroundImage})`,
+          backgroundSize: "100% 100%",
+        }}
+      >
+        <Typography variant="h2" align="center" color="white">
           Stéphane NGUYEN
         </Typography>
-        <Typography variant="h4" align="center" gutterBottom>
+        <Typography variant="h4" align="center" gutterBottom color="white">
           Full Stack Software Engineer Apprentice
         </Typography>
-      </Grid>
-    </Grid>
+      </Box>
+    </>
   );
 }

@@ -22,11 +22,8 @@ export default function AboutMe() {
           Currently, I am working as a full stack developer at SAP, where I
           contribute to the development of internal web applications. Being part
           of a cross-engineering team, I provide support and collaborate with
-          other teams to create and enhance tools for improved efficiency. In my
-          role, I have been actively expanding my skill set by learning various
-          frameworks and libraries for both frontend and backend development,
-          including React.js, SAPUI5, Node.js. I am proficient in languages such
-          as Python, Java, JavaScript.
+          other teams to create and enhance tools for improved efficiency.I am
+          proficient in languages such as Python, Java, JavaScript.
         </Typography>
 
         <Typography variant="body1" paragraph>
