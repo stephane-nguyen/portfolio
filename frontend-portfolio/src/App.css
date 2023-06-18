@@ -2,6 +2,7 @@
   background-color: steelblue;
 }
 
+/* Social Icons */
 .social-icons-container {
     display: flex;
 }
@@ -13,4 +14,21 @@
 
 .social-icon:hover {
   color: blue;
+}
+
+/* Resume button */
+.button {
+  background-color: #b0c4de;
+  color: steelblue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: steelblue;
+  color: #b0c4de;
 }

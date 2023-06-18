@@ -3,6 +3,8 @@ import { AppBar, Toolbar, Stack, Button, Typography } from "@mui/material";
 
 import { Link } from "react-scroll";
 
+import resume from "../images/resume.pdf";
+
 export default function Navbar() {
   return (
     <AppBar position="static">
@@ -12,7 +14,6 @@ export default function Navbar() {
         </Typography>
         <Stack direction="row" spacing={2} sx={{ marginLeft: "auto" }}>
           <Button color="inherit">
-            {/* link to the div id "about" */}
             <Link to="about" spy={true} smooth={true} duration={500}>
               About
             </Link>
@@ -28,14 +29,18 @@ export default function Navbar() {
             </Link>
           </Button>
           <Button color="inherit">
-            <Link to="/travel" spy={true} smooth={true} duration={500}>
+            <Link to="travel" spy={true} smooth={true} duration={500}>
               Travel
             </Link>
           </Button>
           <Button color="inherit">
-            <Link to="/resume" spy={true} smooth={true} duration={500}>
+            <a
+              className="button"
+              href={resume}
+              download="stephane_nguyen_resume.pdf"
+            >
               Resume
-            </Link>
+            </a>
           </Button>
         </Stack>
       </Toolbar>

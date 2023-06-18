@@ -8,6 +8,7 @@ export default function Footer() {
   return (
     <>
       <Contact />
+
       <Grid container justifyContent="center">
         <Grid item>
           <footer>
