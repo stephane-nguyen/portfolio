@@ -1,11 +1,18 @@
 import React from "react";
-import { Typography, Grid, Card, CardContent, CardMedia } from "@mui/material";
+import { Typography, Grid } from "@mui/material";
+
+import sapLogo from "../images/sap_logo.png";
+import thales_logo from "../images/thales_logo.png";
+
+import { JobCard } from "../components/cards/JobCard";
+import { JobAccomplishmentCard } from "../components/cards/JobAccomplishmentCard";
+import { TechnologyCard } from "../components/cards/TechnologyCard";
 
 export default function WorkExperience() {
   return (
     <>
       <div id="experience">
-        <Typography variant="h6" align="center" gutterBottom>
+        <Typography variant="h6" align="center">
           Work Experiences
         </Typography>
         <div
@@ -17,75 +24,92 @@ export default function WorkExperience() {
           }}
         >
           <Grid container spacing={2}>
-            <Grid item xs={8}>
-              <Card>
-                <CardMedia
-                  component="img"
-                  style={{
-                    width: "auto",
-                    maxHeight: "200px",
-                  }}
-                  image="../images/sap_logo.png"
-                  alt="SAP"
-                />
-                <CardContent>
-                  <Typography variant="h6">SAP</Typography>
-                  <Typography variant="subtitle1">
-                    Full Stack Developer Apprentice
-                  </Typography>
-                  <Typography variant="body2">
-                    March 2022 - September 2024
-                  </Typography>
-                  <Typography variant="body2">
-                    Levallois-Perret, France
-                  </Typography>
-                  <Typography variant="body2">Description 1</Typography>
-                </CardContent>
-              </Card>
+            <Grid item xs={4}>
+              <JobCard
+                logo={sapLogo}
+                title="Full Stack Developer Apprentice"
+                date="March 2022 - September 2024"
+                location="Levallois-Perret, France"
+                description="Description 1"
+              />
+            </Grid>
+            <Grid item xs={4}>
+              <JobAccomplishmentCard
+                backgroundColor="#E3F2FD"
+                text="Accomplished [X] as measured by [Y], by doing [Z]"
+              />
+            </Grid>
+            <Grid item xs={1}>
+              <TechnologyCard
+                backgroundColor="#E3F2FD"
+                technology="Javascript"
+              />
+              <TechnologyCard backgroundColor="#E3F2FD" technology="SAPUI5" />
+              <TechnologyCard backgroundColor="#E3F2FD" technology="Node.js" />
+              <TechnologyCard backgroundColor="#E3F2FD" technology="MongoDB" />
+              <TechnologyCard
+                backgroundColor="#E3F2FD"
+                technology="Unit Testing"
+              />
             </Grid>
 
-            <Grid item xs={8}>
-              <Card>
-                <CardMedia
-                  component="img"
-                  height="100"
-                  image="../images/sap_logo.png"
-                  alt="SAP"
-                />
-                <CardContent>
-                  <Typography variant="h6">SAP</Typography>
-                  <Typography variant="subtitle1">
-                    Cloud Software Tester and Automation Intern
-                  </Typography>
-                  <Typography variant="body2">
-                    June 2023 - September 2023
-                  </Typography>
-                  <Typography variant="body2">Palo Alto, CA, USA</Typography>
-                  <Typography variant="body2">Description 1</Typography>
-                </CardContent>
-              </Card>
+            <Grid item xs={4}>
+              <JobCard
+                logo={sapLogo}
+                title="Cloud Software Tester and Automation Intern"
+                date="June 2023 - September 2023"
+                location="Palo Alto, CA, USA"
+                description="Description 3"
+              />
             </Grid>
-
-            <Grid item xs={6}>
-              <Card>
-                <CardMedia
-                  component="img"
-                  height="100"
-                  image="/path/to/thales_logo.png"
-                  alt="THALES"
-                />
-                <CardContent>
-                  <Typography variant="h6">THALES</Typography>
-                  <Typography variant="subtitle1">
-                    Applied mathematics Engineer Apprentice
-                  </Typography>
-                  <Typography variant="body2">
-                    September 2021 - November 2021{" "}
-                  </Typography>
-                  <Typography variant="body2">Gennevilliers, France</Typography>
-                  <Typography variant="body2">Description 2</Typography>
-                </CardContent>
-              </Card>
+            <Grid item xs={4}>
+              <JobAccomplishmentCard
+                backgroundColor="#E3F2FD"
+                text="Accomplished [X] as measured by [Y], by doing [Z]"
+              />
+            </Grid>
+            <Grid item xs={1}>
+              <TechnologyCard
+                backgroundColor="#E3F2FD"
+                technology="Coming Soon"
+              />
+              <TechnologyCard
+                backgroundColor="#E3F2FD"
+                technology="Coming Soon"
+              />
+              <TechnologyCard
+                backgroundColor="#E3F2FD"
+                technology="Coming Soon"
+              />
+              <TechnologyCard
+                backgroundColor="#E3F2FD"
+                technology="Coming Soon"
+              />
+            </Grid>
+            <Grid item xs={4}>
+              <JobCard
+                logo={thales_logo}
+                title="Applied mathematics Engineer Apprentice"
+                date="September 2021 - November 2021"
+                location="Gennevilliers, France"
+                description="Description 2"
+              />
+            </Grid>
+            <Grid item xs={4}>
+              <JobAccomplishmentCard
+                backgroundColor="#E3F2FD"
+                text="Accomplished [X] as measured by [Y], by doing [Z]"
+              />
+            </Grid>
+            <Grid item xs={1}>
+              <TechnologyCard
+                backgroundColor="#E3F2FD"
+                technology="Math research"
+              />
+              <TechnologyCard
+                backgroundColor="#E3F2FD"
+                technology="Bibliographic study"
+              />
             </Grid>
           </Grid>
         </div>
