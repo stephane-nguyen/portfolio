@@ -11,7 +11,7 @@ import { TechnologyCard } from "../components/cards/TechnologyCard";
 export default function WorkExperience() {
   return (
     <>
-      <div id="experience">
+      <div id="experiences">
         <Typography variant="h6" align="center">
           Work Experiences
         </Typography>
