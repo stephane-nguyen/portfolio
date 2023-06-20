@@ -3,5 +3,5 @@
 ### run deployment
 
 ```
-npm run deploy
+./deploy.sh
 ```
