@@ -32,10 +32,12 @@ export default function Contact() {
   return (
     <>
       <div id="contact">
-        <Typography variant="h6" align="center" gutterBottom>
+        <Typography variant="h6" align="center" gutterBottom color="#1976d2">
           Get in touch
         </Typography>
-        <SocialIcons />
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <SocialIcons />
+        </div>
       </div>
       {showBackToTop && (
         <IconButton

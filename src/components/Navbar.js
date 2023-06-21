@@ -6,7 +6,7 @@ import "../App.css";
 
 export default function Navbar() {
   return (
-    <AppBar position="static" className="navbar">
+    <AppBar position="static" sx={{ backgroundColor: "#222222" }}>
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Stéphane Nguyen

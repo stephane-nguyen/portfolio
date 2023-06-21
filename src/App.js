@@ -9,7 +9,7 @@ import WorkExperience from "./pages/WorkExperience";
 
 export default function App() {
   return (
-    <div className="bg-color">
+    <div>
       <Navbar />
       <Header />
       <About />

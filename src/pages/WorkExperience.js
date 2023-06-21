@@ -12,7 +12,7 @@ export default function WorkExperience() {
   return (
     <>
       <div id="experiences">
-        <Typography variant="h6" align="center">
+        <Typography variant="h6" align="center" color="#1976d2">
           Work Experiences
         </Typography>
         <div
@@ -34,23 +34,14 @@ export default function WorkExperience() {
               />
             </Grid>
             <Grid item xs={4}>
-              <JobAccomplishmentCard
-                backgroundColor="#E3F2FD"
-                text="Accomplished [X] as measured by [Y], by doing [Z]"
-              />
+              <JobAccomplishmentCard text="Accomplished [X] as measured by [Y], by doing [Z]" />
             </Grid>
             <Grid item xs={1}>
-              <TechnologyCard
-                backgroundColor="#E3F2FD"
-                technology="Javascript"
-              />
-              <TechnologyCard backgroundColor="#E3F2FD" technology="SAPUI5" />
-              <TechnologyCard backgroundColor="#E3F2FD" technology="Node.js" />
-              <TechnologyCard backgroundColor="#E3F2FD" technology="MongoDB" />
-              <TechnologyCard
-                backgroundColor="#E3F2FD"
-                technology="Unit Testing"
-              />
+              <TechnologyCard technology="Javascript" />
+              <TechnologyCard technology="SAPUI5" />
+              <TechnologyCard technology="Node.js" />
+              <TechnologyCard technology="MongoDB" />
+              <TechnologyCard technology="Unit Testing" />
             </Grid>
 
             <Grid item xs={4}>
@@ -63,28 +54,13 @@ export default function WorkExperience() {
               />
             </Grid>
             <Grid item xs={4}>
-              <JobAccomplishmentCard
-                backgroundColor="#E3F2FD"
-                text="Accomplished [X] as measured by [Y], by doing [Z]"
-              />
+              <JobAccomplishmentCard text="Accomplished [X] as measured by [Y], by doing [Z]" />
             </Grid>
             <Grid item xs={1}>
-              <TechnologyCard
-                backgroundColor="#E3F2FD"
-                technology="Coming Soon"
-              />
-              <TechnologyCard
-                backgroundColor="#E3F2FD"
-                technology="Coming Soon"
-              />
-              <TechnologyCard
-                backgroundColor="#E3F2FD"
-                technology="Coming Soon"
-              />
-              <TechnologyCard
-                backgroundColor="#E3F2FD"
-                technology="Coming Soon"
-              />
+              <TechnologyCard technology="Coming Soon" />
+              <TechnologyCard technology="Coming Soon" />
+              <TechnologyCard technology="Coming Soon" />
+              <TechnologyCard technology="Coming Soon" />
             </Grid>
             <Grid item xs={4}>
               <JobCard
@@ -96,20 +72,11 @@ export default function WorkExperience() {
               />
             </Grid>
             <Grid item xs={4}>
-              <JobAccomplishmentCard
-                backgroundColor="#E3F2FD"
-                text="Accomplished [X] as measured by [Y], by doing [Z]"
-              />
+              <JobAccomplishmentCard text="Accomplished [X] as measured by [Y], by doing [Z]" />
             </Grid>
             <Grid item xs={1}>
-              <TechnologyCard
-                backgroundColor="#E3F2FD"
-                technology="Math research"
-              />
-              <TechnologyCard
-                backgroundColor="#E3F2FD"
-                technology="Bibliographic study"
-              />
+              <TechnologyCard technology="Math research" />
+              <TechnologyCard technology="Bibliographic study" />
             </Grid>
           </Grid>
         </div>

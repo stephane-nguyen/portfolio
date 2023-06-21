@@ -5,11 +5,11 @@ export default function AboutMe() {
   return (
     <>
       <div id="about">
-        <Typography variant="h6" align="center" gutterBottom>
+        <Typography variant="h6" align="center" gutterBottom color="#1976d2">
           Get to know me
         </Typography>
 
-        <Typography variant="body1" paragraph>
+        <Typography variant="body1" paragraph color="common.white">
           Hello, nice to meet you! I'm Stéphane and I'm 21 years old. I come
           from a math background, but I made a deliberate decision to switch my
           major to Computer Science. I made this choice because I realized that
@@ -18,7 +18,7 @@ export default function AboutMe() {
           software engineering.
         </Typography>
 
-        <Typography variant="body1" paragraph>
+        <Typography variant="body1" paragraph color="common.white">
           Currently, I am working as a full stack developer at SAP, where I
           contribute to the development of internal web applications. Being part
           of a cross-engineering team, I provide support and collaborate with
@@ -26,7 +26,7 @@ export default function AboutMe() {
           proficient in languages such as Python, Java, JavaScript.
         </Typography>
 
-        <Typography variant="body1" paragraph>
+        <Typography variant="body1" paragraph color="common.white">
           I find great satisfaction in utilizing my experience to make a
           meaningful impact and positively influence as many people as possible.
           Working alongside talented and driven colleagues is an environment in

@@ -1,6 +1,10 @@
-.bg-color {
-  background-color: steelblue;
+
+body {
+  background-color: #222222;
+  margin: 0;
+  padding: 0;
 }
+
 
 /* Social Icons */
 .social-icons-container {
@@ -29,6 +33,12 @@
 }
 
 .button:hover {
-  background-color: steelblue;
+  background-color: #FFFFFF;
   color: #b0c4de;
+}
+
+.navbar-button:hover {
+  background-color: #555555;
+  color: #FFFFFF; /* Text color when hovered over */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
 }

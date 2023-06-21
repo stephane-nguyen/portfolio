@@ -1,17 +1,19 @@
 import React from "react";
 
-import { Card } from "@mui/material";
+export const TechnologyCard = ({ technology }) => {
+  const cardStyle = {
+    backgroundColor: "#333333",
+    color: "#FFFFFF",
+    marginBottom: "10px",
+    padding: "10px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  };
 
-export const TechnologyCard = ({ backgroundColor, technology }) => (
-  <Card
-    sx={{
-      backgroundColor: backgroundColor,
-      marginBottom: "10px",
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-    }}
-  >
-    {technology}
-  </Card>
-);
+  return (
+    <div style={cardStyle}>
+      <span>{technology}</span>
+    </div>
+  );
+};
