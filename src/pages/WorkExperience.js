@@ -67,6 +67,7 @@ export default function WorkExperience() {
               <TechnologyCard technology="Python" />
               <TechnologyCard technology="Jenkins" />
               <TechnologyCard technology="JMeter" />
+              <TechnologyCard technology="Testing" />
             </Grid>
             <Grid item xs={4}>
               <JobCard
