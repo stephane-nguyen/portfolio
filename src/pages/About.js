@@ -18,8 +18,10 @@ export default function AboutMe() {
 
         <Typography variant="body1" paragraph color="common.white">
           I find great satisfaction in utilizing my experience to make a meaningful impact and positively influence as many people as possible. 
-          Working alongside talented and driven colleagues is an environment in which I thrive.
-          If you would like to connect for a discussion, please feel free to reach out to me.
+          Working alongside talented and driven colleagues is an environment in which I thrive. 
+        </Typography>
+        <Typography variant="body1" paragraph color="common.white">
+          If you would like to connect for a discussion, please feel free to reach out to me by going through the CONTACT section.
         </Typography>
       </div>
     </>
