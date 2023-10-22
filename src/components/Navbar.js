@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Stack, Button, Typography, Box } from "@mui/material";
-import resume from "../images/resume.pdf";
+import resume from "../images/Stephane_NGUYEN_Resume.pdf";
 import { NavButton } from "./NavButton";
 import "../App.css";
 
