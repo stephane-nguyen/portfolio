@@ -1,16 +1,16 @@
 {
-  "main.css": "/portfolio/static/css/main.408b4294.chunk.css",
-  "main.js": "/portfolio/static/js/main.05bba950.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.05bba950.chunk.js.map",
-  "static/js/1.5a0085ce.chunk.js": "/portfolio/static/js/1.5a0085ce.chunk.js",
-  "static/js/1.5a0085ce.chunk.js.map": "/portfolio/static/js/1.5a0085ce.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/media/night_city.jpg": "/portfolio/static/media/night_city.06f72cc0.jpg",
-  "static/media/resume.pdf": "/portfolio/static/media/resume.85ba1c4f.pdf",
-  "static/media/thales_logo.png": "/portfolio/static/media/thales_logo.9e389d3b.png",
-  "static/css/main.408b4294.chunk.css.map": "/portfolio/static/css/main.408b4294.chunk.css.map",
-  "index.html": "/portfolio/index.html",
-  "precache-manifest.a2bc8a30cb0c04b75b7ceac603189fd6.js": "/portfolio/precache-manifest.a2bc8a30cb0c04b75b7ceac603189fd6.js",
-  "service-worker.js": "/portfolio/service-worker.js"
+  "files": {
+    "main.css": "/portfolio/static/css/main.abeb0722.css",
+    "main.js": "/portfolio/static/js/main.310ef35b.js",
+    "static/media/night_city.jpg": "/portfolio/static/media/night_city.cf9db66e3ddf49ee789b.jpg",
+    "static/media/Stephane_NGUYEN_Resume.pdf": "/portfolio/static/media/Stephane_NGUYEN_Resume.ecc37b456a7f4dd741fb.pdf",
+    "static/media/thales_logo.png": "/portfolio/static/media/thales_logo.18bfbfdeae975bb75c09.png",
+    "index.html": "/portfolio/index.html",
+    "main.abeb0722.css.map": "/portfolio/static/css/main.abeb0722.css.map",
+    "main.310ef35b.js.map": "/portfolio/static/js/main.310ef35b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abeb0722.css",
+    "static/js/main.310ef35b.js"
+  ]
 }
